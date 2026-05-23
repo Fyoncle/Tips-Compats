@@ -1,0 +1,32 @@
+name: Suggestion
+description: 'Request a mod to add compatibility with!'
+title: '[Suggestion]: '
+assignees:
+  - Fyoncle
+labels:
+  - compatibility
+body:
+  - type: input
+    id: mod_name
+    attributes:
+      label: Mod Name
+      description: What mod do you want compatibility for?
+      placeholder: Supplementaries
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Which features of the mod do you think should be a tip?
+      description: A clear explanation of what features of this mod are suitable for a tip.
+      placeholder: >-
+        This mod adds the X feature which would be amazing as a tip.
+    validations:
+      required: true
+  - type: checkboxes
+    id: Confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked the compatibility list on Tips Compats and it doesn't already have compatibility for this mod
+          required: true
