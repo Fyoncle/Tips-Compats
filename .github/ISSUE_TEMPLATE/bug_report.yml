@@ -1,0 +1,60 @@
+name: Bug Report
+description: 'Something is not working.'
+title: '[Bug]: '
+assignees:
+  - Fyoncle
+labels:
+  - bug
+body:
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft Version
+      description: Which Minecraft version are you playing on?
+      placeholder: 1.20.1
+    validations:
+      required: true
+  - type: input
+    id: tips_version
+    attributes:
+      label: Tips version
+      description: >-
+        Which version of Tips are you using?
+      placeholder: 12.1.9
+    validations:
+      required: true
+  - type: input
+    id: tips_compats_version
+    attributes:
+      label: Tips Compats version
+      description: >-
+        Which version of Tips Compats are you using?
+      placeholder: v1.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear explanation of the bug.
+      placeholder: >-
+        Version X not working on Minecraft 1.2x.x
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Required steps to reproduce the bug.
+      placeholder: |
+        1. Install Tips & Tips Compats on Minecraft 1.2x.x
+        2. Join a world
+        3. See this mod stated as compatible is not working on this version
+  - type: input
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: |
+        Please upload the log file to [mclo.gs](https://mclo.gs/) and paste the given url here.  
+      placeholder: https://mclo.gs/...
