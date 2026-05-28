@@ -20,6 +20,7 @@
 - [Deeper and Darker](https://modrinth.com/mod/deeperdarker)
 - [Tameable Foxes](https://modrinth.com/mod/tameable-foxes)
 - [Supplementaries](https://modrinth.com/mod/supplementaries)
+- [Naturalist](https://modrinth.com/mod/naturalist)
 - [Elytra Trims](https://modrinth.com/mod/elytra-trims)
 - [Useful Lanterns](https://modrinth.com/mod/useful-lanterns)
 - [Mobs Attempt Parkour](https://modrinth.com/mod/mobs-attempt-parkour)
